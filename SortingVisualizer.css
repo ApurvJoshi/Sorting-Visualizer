@@ -1,0 +1,40 @@
+
+button {
+    padding: 5px 15px;
+    background-color: rgba(0, 136, 169,1);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(9, 194, 240, 0.904);
+}
+
+.array-container {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+  }
+  
+  .array-bar {
+    width: 10px;
+    display: inline-table;
+    margin: 0 1px;
+  }
+
+
+  *{
+    letter-spacing: 4px;
+    background-color: #1e0c5e;
+}
+
+.head {
+    display: flexbox;
+    color:rgb(231, 22, 22);
+    align-items: center;
+    text-align: center;
+    min-height: vh;
+
+}
